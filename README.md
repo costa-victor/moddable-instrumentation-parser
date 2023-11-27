@@ -35,8 +35,9 @@ This script processes log files containing instrumented data from Moddable and e
    ```
 3. Update the input file path and output file paths in the script (`log_processor.py`) according to your requirements.
 4. Install [Grafana](https://grafana.com/)
-5. Install [moreutils](https://rentes.github.io/unix/utilities/2015/07/27/moreutils-package/)
-6. Import the Grafana example dashboard: [Moddable instrumentation analysis.json](grafana_dashboard/Moddable%20instrumentation%20analysis.json)
+5. Install [Grafana CSV plugin](https://grafana.com/grafana/plugins/marcusolsson-csv-datasource/)
+6. Install [moreutils](https://rentes.github.io/unix/utilities/2015/07/27/moreutils-package/)
+7. Import the Grafana example dashboard: [Moddable instrumentation analysis.json](grafana_dashboard/Moddable%20instrumentation%20analysis.json)
 
 ## Usage
 
@@ -57,6 +58,7 @@ This script processes log files containing instrumented data from Moddable and e
 
 - Python 3
 - Grafana
+- Grafana CSV - Plugin
 - moreutils
 
 ## Author
