@@ -1,0 +1,198 @@
+Nov 27 09:39:13 V (827) memory_layout: Region 0x40094000 - 0x40096000 inside of reserved 0x40080000 - 0x40099ebc
+Nov 27 09:39:13 V (836) memory_layout: Examining memory region 0x40096000 - 0x40098000
+Nov 27 09:39:13 V (842) memory_layout: Region 0x40096000 - 0x40098000 inside of reserved 0x40080000 - 0x40099ebc
+Nov 27 09:39:13 V (850) memory_layout: Examining memory region 0x40098000 - 0x4009a000
+Nov 27 09:39:13 V (857) memory_layout: Start of region 0x40098000 - 0x4009a000 overlaps reserved 0x40080000 - 0x40099ebc
+Nov 27 09:39:13 D (866) memory_layout: Available memory region 0x40099ebc - 0x4009a000
+Nov 27 09:39:13 V (872) memory_layout: Examining memory region 0x4009a000 - 0x4009c000
+Nov 27 09:39:13 D (878) memory_layout: Available memory region 0x4009a000 - 0x4009c000
+Nov 27 09:39:13 V (884) memory_layout: Examining memory region 0x4009c000 - 0x4009e000
+Nov 27 09:39:13 D (891) memory_layout: Available memory region 0x4009c000 - 0x4009e000
+Nov 27 09:39:13 V (897) memory_layout: Examining memory region 0x4009e000 - 0x400a0000
+Nov 27 09:39:13 D (903) memory_layout: Available memory region 0x4009e000 - 0x400a0000
+Nov 27 09:39:13 I (910) heap_init: Initializing. RAM available for dynamic allocation:
+Nov 27 09:39:13 I (916) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+Nov 27 09:39:13 D (921) heap_init: New heap initialised at 0x3ffb6388
+Nov 27 09:39:13 I (926) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+Nov 27 09:39:13 D (931) heap_init: New heap initialised at 0x3ffb9a20
+Nov 27 09:39:13 I (936) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+Nov 27 09:39:13 D (941) heap_init: New heap initialised at 0x3ffca268
+Nov 27 09:39:13 I (946) heap_init: At 3FFCA268 len 00015D98 (87 KiB): DRAM
+Nov 27 09:39:13 I (951) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+Nov 27 09:39:13 I (956) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+Nov 27 09:39:13 D (962) heap_init: New heap initialised at 0x40099ebc
+Nov 27 09:39:13 I (966) heap_init: At 40099EBC len 00006144 (24 KiB): IRAM
+Nov 27 09:39:13 V (972) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args
+Nov 27 09:39:13 V (978) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xE
+Nov 27 09:39:13 D (985) intr_alloc: Connected src 46 to int 2 (cpu 0)
+Nov 27 09:39:13 D (991) FLASH_HAL: extra_dummy: 1
+Nov 27 09:39:13 V (993) memspi: raw_chip_id: 1840C8
+Nov 27 09:39:13 
+Nov 27 09:39:13 V (996) memspi: chip_id: C84018
+Nov 27 09:39:13 
+Nov 27 09:39:13 V (999) memspi: raw_chip_id: 1840C8
+Nov 27 09:39:13 
+Nov 27 09:39:13 V (1003) memspi: chip_id: C84018
+Nov 27 09:39:13 
+Nov 27 09:39:13 D (1006) spi_flash: trying chip: issi
+Nov 27 09:39:13 D (1009) spi_flash: trying chip: gd
+Nov 27 09:39:13 I (1013) spi_flash: detected chip: gd
+Nov 27 09:39:13 I (1016) spi_flash: flash io: dio
+Nov 27 09:39:13 D (1019) efuse: In EFUSE_BLK0__DATA6_REG is used 1 bits starting with 2 bit
+Nov 27 09:39:13 D (1026) cpu_start: calling init function: 0x401bedac
+Nov 27 09:39:13 D (1030) cpu_start: calling init function: 0x40175410
+Nov 27 09:39:13 D (1035) cpu_start: calling init function: 0x4016466c
+Nov 27 09:39:13 D (1040) cpu_start: calling init function: 0x400d0fd0
+Nov 27 09:39:13 D (1045) cpu_start: calling init function: 0x400d0694
+Nov 27 09:39:13 V (1050) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args
+Nov 27 09:39:13 V (1056) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xC02
+Nov 27 09:39:13 D (1064) intr_alloc: Connected src 17 to int 3 (cpu 0)
+Nov 27 09:39:13 V (1069) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args
+Nov 27 09:39:13 V (1075) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0x40E
+Nov 27 09:39:13 D (1082) intr_alloc: Connected src 24 to int 9 (cpu 0)
+Nov 27 09:39:13 I (1087) cpu_start: Starting scheduler on PRO CPU.
+Nov 27 09:39:13 V (0) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): checking args
+Nov 27 09:39:13 V (5) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): Args okay. Resulting flags 0x40E
+Nov 27 09:39:13 D (13) intr_alloc: Connected src 25 to int 2 (cpu 1)
+Nov 27 09:39:13 I (18) cpu_start: Starting scheduler on APP CPU.
+Nov 27 09:39:13 D (1136) heap_init: New heap initialised at 0x3ffe0440
+Nov 27 09:39:13 D (1141) heap_init: New heap initialised at 0x3ffe4350
+Nov 27 09:39:13 V (1146) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args
+Nov 27 09:39:13 V (1146) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xE
+Nov 27 09:39:13 D (1146) intr_alloc: Connected src 16 to int 12 (cpu 0)
+Nov 27 09:39:13 D (2164) partition: Loading the partition table
+Nov 27 09:39:13 V (2165) calculated md5: 0x3ffbc9b8   c4 45 10 bc 09 3d 53 77  81 3a 1d e7 6a 7c 38 fe  |.E...=Sw.:..j|8.|
+Nov 27 09:39:13 V (2166) stored md5: 0x3f608190   c4 45 10 bc 09 3d 53 77  81 3a 1d e7 6a 7c 38 fe  |.E...=Sw.:..j|8.|
+Nov 27 09:39:13 D (2175) partition: Partition table MD5 verified
+Nov 27 09:39:13 D (219V (2194) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args
+Nov 27 09:39:13 V (2194) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xE
+Nov 27 09:39:13 D (2194) intr_alloc: Connected src 34 to int 13 (cpu 0)
+Nov 27 09:39:13 V (2203) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): checking args
+Nov 27 09:39:13 V (2208) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): Args okay. Resulting flags 0x402
+Nov 27 09:39:13 D (2216) intr_alloc: Connected src 14 to int 3 (cpu 1)
+Nov 27 09:39:13 instruments key: Pixels drawn,Frames drawn,Network bytes read,Network bytes written,Network sockets,Timers,Files,Poco display list used,Piu command List used,SPI flash erases,System bytes free,CPU 0,CPU 1,Chunk used,Chunk available,Slot used,Slot available,Stack used,Stack available,Garbage collections,Keys used,Modules loaded,Parser used,Floating Point
+Nov 27 09:39:13 D (2256) spi: SPI3 use iomux pins.
+Nov 27 09:39:13 V (2256) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): checking args
+Nov 27 09:39:13 V (2261) intr_alloc: esp_intr_alloc_intrstatus (cpu 1): Args okay. Resulting flags 0x80E
+Nov 27 09:39:13 D (2269) intr_alloc: Connected src 31 to int 4 (cpu 1)
+Nov 27 09:39:13 V (2274) bus_lock: device registered on bus 2 slot 5.
+Nov 27 09:39:13 D (2278) spi_hal: eff: 2000, limit: 80000k(/0), 0 dummy, -1 delay
+Nov 27 09:39:13 D (2284) spi_master: SPI3: New device added to CS5, effective clock: 2000kHz
+Nov 27 09:39:13 V (2295) bus_lock: device registered on bus 2 slot 4.
+Nov 27 09:39:13 D (2296) spi_hal: eff: 16000, limit: 80000k(/0), 0 dummy, -1 delay
+Nov 27 09:39:13 D (2302) spi_master: SPI3: New device added to CS4, effective clock: 16000kHz
+Nov 27 09:39:13 V bus_lock: SPI dev changed from -1 to 4
+Nov 27 09:39:13 instruments key: Chunk used,Chunk available,Slot used,Slot available,Stack used,Stack available,Garbage collections,Keys used,Modules loaded,Parser used,Floating Point
+Nov 27 09:39:13 instruments: 492,1536,1648,4096,1056,7168,0,0,0,0,0
+Nov 27 09:39:13 instruments: 0,0,0,0,0,3,0,0,0,0,88972,3,23,4912,5376,2288,8192,2208,9600,3,0,0,0,3
+Nov 27 09:39:14 instruments: 0,1,0,0,0,4,0,0,136,0,87492,25,24,7116,7356,9520,10240,4912,9600,43,1,0,0,6
+Nov 27 09:39:14 instruments: 504,1536,2864,4096,1120,7168,1,0,0,0,0
+Nov 27 09:39:15 I (4150) uart: queue free spaces: 800
+Nov 27 09:39:15 V (4150) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): checking args
+Nov 27 09:39:15 V (4150) intr_alloc: esp_intr_alloc_intrstatus (cpu 0): Args okay. Resulting flags 0xE
+Nov 27 09:39:15 D (4150) intr_alloc: Connected src 35 to int 17 (cpu 0)
+Nov 27 09:39:15 instruments: 76800,1,0,0,0,6,0,32,168,0,70272,26,17,7288,7356,9232,10240,2880,9600,3,1,0,0,4
+Nov 27 09:39:17 instruments: 76800,1,0,0,0,13,0,32,168,0,67620,33,14,7300,7644,10000,11264,1952,9600,1,4,0,0,2
+Nov 27 09:39:17 instruments: 1376,1536,6704,7168,1696,7168,12,1,0,0,448
+Nov 27 09:39:18 instruments: 0,0,0,0,0,13,0,0,0,0,67620,0,0,7312,7644,10240,11264,1008,9600,0,4,0,0,0
+Nov 27 09:39:18 instruments: 1376,1536,6704,7168,1104,7168,0,1,0,0,400
+Nov 27 09:39:19 instruments: 0,0,0,0,0,13,0,0,0,0,67620,0,0,7324,7644,10480,11264,1008,9600,0,4,0,0,0
+Nov 27 09:39:19 instruments: 1156,1536,6032,7168,1104,7168,1,1,0,0,400
+Nov 27 09:39:20 instruments: 0,0,0,0,0,13,0,0,0,0,67620,1,0,7336,7644,10800,11264,1328,9600,0,4,0,0,0
+Nov 27 09:39:20 instruments: 1156,1536,6032,7168,1104,7168,0,1,0,0,400
+Nov 27 09:39:25 instruments: 153600,2,0,0,0,14,0,32,168,0,64784,77,53,10016,10308,13120,13312,4912,9600,53,8,0,0,18
+Nov 27 09:39:25 instruments: 4568,11948,16608,19456,2336,7168,1,6,0,0,6
+Nov 27 09:39:26 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9660,10308,13200,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:26 instruments: 4568,11948,16608,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:27 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9972,10308,11872,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:27 instruments: 4568,11948,16608,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:28 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10284,10308,13184,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:28 instruments: 4568,11948,16608,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:29 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9900,10308,11872,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:29 instruments: 4628,11948,16576,19456,1232,7168,1,6,0,0,0
+Nov 27 09:39:30 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10212,10308,13200,13312,1328,9600,1,8,0,0,0
+Nov 27 09:39:30 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:31 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9852,10308,11888,13312,1152,9600,3,8,0,0,0
+Nov 27 09:39:31 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:32 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10164,10308,13200,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:32 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:33 instruments: 0,0,0,0,0,14,0,0,0,0,64784,0,1,9804,10308,13216,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:33 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:34 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10116,10308,11888,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:34 instruments: 4628,11948,16576,19456,1232,7168,1,6,0,0,0
+Nov 27 09:39:35 instruments: 0,0,0,0,0,14,0,0,0,0,64784,2,0,9756,10308,13216,13312,1328,9600,1,8,0,0,0
+Nov 27 09:39:35 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:36 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10068,10308,11888,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:36 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:37 instruments: 0,0,0,0,0,14,0,0,0,0,64784,0,1,9696,10308,12976,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:37 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:38 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10008,10308,13232,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:38 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:39 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9648,10308,12976,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:39 instruments: 4628,11948,16576,19456,1232,7168,1,6,0,0,0
+Nov 27 09:39:40 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9960,10308,13232,13312,1328,9600,1,8,0,0,0
+Nov 27 09:39:40 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:41 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10272,10308,12960,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:41 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:42 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9888,10308,13232,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:42 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:43 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10200,10308,12960,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:43 instruments: 4628,11948,16576,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:44 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,9840,10308,13104,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:44 instruments: 4628,11948,16576,19456,1232,7168,1,6,0,0,0
+Nov 27 09:39:45 instruments: 0,0,0,0,0,14,0,0,0,0,64784,1,1,10152,10308,12960,13312,1328,9600,2,8,0,0,0
+Nov 27 09:39:45 instruments: 4680,11948,16720,19456,960,7168,0,6,0,0,1
+Nov 27 09:39:46 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9792,10308,12976,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:46 instruments: 4680,11948,16720,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:47 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10104,10308,13232,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:47 instruments: 4680,11948,16720,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:48 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9744,10308,12976,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:48 instruments: 4680,11948,16720,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:49 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10056,10308,13232,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:49 instruments: 4604,11948,16432,19456,1232,7168,1,6,0,0,0
+Nov 27 09:39:50 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9696,10308,12976,13312,1328,9600,2,8,0,0,0
+Nov 27 09:39:50 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:51 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10008,10308,13232,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:51 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:52 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9648,10308,12976,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:52 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:53 instruments: 0,0,0,0,0,13,0,0,0,0,64836,0,1,9960,10308,13232,13312,1152,9600,1,8,0,0,0
+Nov 27 09:39:53 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:54 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10272,10308,12960,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:54 instruments: 4604,11948,16432,19456,1232,7168,1,6,0,0,0
+Nov 27 09:39:55 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9888,10308,13232,13312,1328,9600,1,8,0,0,0
+Nov 27 09:39:55 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:56 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10200,10308,12960,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:56 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:57 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9840,10308,13104,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:57 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:58 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10152,10308,12960,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:58 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:39:59 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9792,10308,12976,13312,1152,9600,2,8,0,0,0
+Nov 27 09:39:59 instruments: 4604,11948,16432,19456,1232,7168,1,6,0,0,0
+Nov 27 09:40:00 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10104,10308,13232,13312,1328,9600,1,8,0,0,0
+Nov 27 09:40:00 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:01 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9744,10308,12976,13312,1152,9600,2,8,0,0,0
+Nov 27 09:40:01 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:02 instruments: 0,0,0,0,0,13,0,0,0,0,64836,0,2,10056,10308,11888,13312,1152,9600,2,8,0,0,0
+Nov 27 09:40:02 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:03 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9696,10308,13216,13312,1152,9600,1,8,0,0,0
+Nov 27 09:40:03 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:04 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10008,10308,11888,13312,1152,9600,2,8,0,0,0
+Nov 27 09:40:04 instruments: 4604,11948,16432,19456,1232,7168,1,6,0,0,0
+Nov 27 09:40:05 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9600,10308,11888,13312,1328,9600,2,8,0,0,0
+Nov 27 09:40:05 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:06 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9912,10308,13200,14336,1152,9600,1,8,0,0,0
+Nov 27 09:40:06 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:07 instruments: 0,0,0,0,0,13,0,0,0,0,64836,2,0,10224,10308,13216,14336,1152,9600,1,8,0,0,0
+Nov 27 09:40:07 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:08 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9864,10308,13344,14336,1152,9600,1,8,0,0,0
+Nov 27 09:40:08 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:09 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10176,10308,13216,14336,1152,9600,1,8,0,0,0
+Nov 27 09:40:09 instruments: 4604,11948,16432,19456,1232,7168,1,6,0,0,0
+Nov 27 09:40:10 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9816,10308,13216,14336,1328,9600,1,8,0,0,0
+Nov 27 09:40:10 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:11 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,10128,10308,13216,14336,1152,9600,1,8,0,0,0
+Nov 27 09:40:11 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
+Nov 27 09:40:12 instruments: 0,0,0,0,0,13,0,0,0,0,64836,1,1,9768,10308,13216,14336,1152,9600,1,8,0,0,0
+Nov 27 09:40:12 instruments: 4604,11948,16432,19456,960,7168,0,6,0,0,0
