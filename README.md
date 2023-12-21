@@ -44,7 +44,7 @@ This script processes log files containing instrumented data from Moddable and e
 1. Run the following command in the terminal to generate the logs to be consumed by the script:
 
    ```bash
-   mcconfig -i -m -p esp32/nodemcu | ts >> your-log.log
+   mcconfig -i -m -p esp32/nodemcu | ts %s >> your-log.log
    ```
 2. In a second terminal, run the script:
 
