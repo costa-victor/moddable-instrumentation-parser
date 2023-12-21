@@ -15,24 +15,9 @@ Dependencies:
 """
 import re
 import time
-from datetime import datetime
 
 WORKER_CSV_HEADER = "timestamp,Chunk used,Chunk available,Slot used,Slot available,Stack used,Stack available,Garbage collections,Keys used,Modules loaded,Parser used,Floating Point\n"
 CONTROLLER_CSV_HEADER = "timestamp,Pixels drawn,Frames drawn,Network bytes read,Network bytes written,Network sockets,Timers,Files,Poco display list used,Piu command List used,SPI flash erases,System bytes free,CPU 0,CPU 1,Chunk used,Chunk available,Slot used,Slot available,Stack used,Stack available,Garbage collections,Keys used,Modules loaded,Parser used,Floating Point\n"
-
-"""
-Convert a timestamp string to Unix timestamp in milliseconds.
-
-Args:
-- timestamp_str (str): Timestamp in the format "%b %d %H:%M:%S".
-
-Returns:
-- int: Unix timestamp in milliseconds.
-"""
-def convert_to_unix_timestamp(timestamp_str):
-    dt = datetime.strptime(timestamp_str, "%b %d %H:%M:%S")
-    dt = dt.replace(year=datetime.now().year)
-    return int(dt.timestamp())
 
 """
 Parse a log line and extract relevant information.
@@ -48,9 +33,10 @@ Returns:
 """
 def parse_log_line(line):
     if "instruments:" in line:
-        match = re.match(r'(\S+ \d+ \d+:\d+:\d+) instruments: (.+)', line)
+        match = re.match(r'(\d+) instruments: (.+)', line)
         if match:
             timestamp, data = match.groups()
+            timestamp = int(timestamp)
             data_items = data.split(',')
             if len(data_items) == 11:
                 return "worker", timestamp, data
@@ -88,9 +74,8 @@ def process_log(input_file, worker_file, controller_file):
         for line in file:
             key, timestamp, data = parse_log_line(line)
             if key:
-                unix_timestamp = convert_to_unix_timestamp(timestamp)
-                escaped_data = data.replace('"', r'\"')  # Escapa as aspas na string
-                log_entry = f'{unix_timestamp}, {escaped_data.strip()}'
+                escaped_data = data.replace('"', r'\"')
+                log_entry = f'{timestamp}, {escaped_data.strip()}'
                 if key == "worker":
                     worker_logs.append(log_entry)
                 else:
